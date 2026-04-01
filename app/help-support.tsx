@@ -24,7 +24,7 @@ if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental
 
 const SUPPORT_EMAIL = 'karaliolios.panagiotis@gmail.com';
 const PRIVACY_POLICY_URL =
-  'https://github.com/PanagiotisKaraliolios/medication-tracker/blob/main/PRIVACY_POLICY.md';
+  'https://github.com/PanagiotisKaraliolios/dosemate/blob/main/PRIVACY_POLICY.md';
 
 type FAQItem = {
   question: string;
@@ -86,8 +86,8 @@ export default function HelpSupportScreen() {
   };
 
   const handleEmailSupport = async () => {
-    const subject = encodeURIComponent('MediTrack Support Request');
-    const body = encodeURIComponent(`\n\n---\nApp: MediTrack v1.3.0\nPlatform: ${Platform.OS}`);
+    const subject = encodeURIComponent('DoseMate Support Request');
+    const body = encodeURIComponent(`\n\n---\nApp: DoseMate v1.3.0\nPlatform: ${Platform.OS}`);
     const url = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
 
     const supported = await Linking.canOpenURL(url);
@@ -224,7 +224,7 @@ export default function HelpSupportScreen() {
         <View style={styles.infoCard}>
           <Feather name="info" size={18} color={c.gray400} />
           <View style={styles.infoTextWrap}>
-            <Text style={styles.infoLabel}>MediTrack v1.3.0</Text>
+            <Text style={styles.infoLabel}>DoseMate v1.3.0</Text>
             <Text style={styles.infoSubtitle}>Made with care for your health</Text>
           </View>
         </View>

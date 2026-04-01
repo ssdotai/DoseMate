@@ -65,7 +65,7 @@ export function useBatteryOptimization() {
 
     try {
       const packageName =
-        Constants.expoConfig?.android?.package ?? 'com.anonymous.medicationtracker';
+        Constants.expoConfig?.android?.package ?? 'com.anonymous.dosemake';
 
       await startActivityAsync(ActivityAction.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, {
         data: `package:${packageName}`,

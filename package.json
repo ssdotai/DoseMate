@@ -1,5 +1,5 @@
 {
-  "name": "medication-tracker",
+  "name": "dosemate",
   "version": "1.3.0",
   "main": "expo-router/entry",
   "scripts": {

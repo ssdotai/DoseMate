@@ -2,7 +2,7 @@ import ExpoModulesCore
 import WidgetKit
 
 public final class WidgetBridgeModule: Module {
-    private let appGroupId = "group.com.anonymous.medicationtracker"
+    private let appGroupId = "group.com.anonymous.dosemake"
 
     public func definition() -> ModuleDefinition {
         Name("WidgetBridge")

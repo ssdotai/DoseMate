@@ -67,7 +67,7 @@ export default function SupportDeveloperScreen() {
           <View style={{ width: 40 }} />
         </View>
         <Text style={styles.headerSubtitle}>
-          Every ad view helps keep MediTrack free. Thank you for your support!
+          Every ad view helps keep DoseMate free. Thank you for your support!
         </Text>
       </LinearGradient>
 
@@ -104,7 +104,7 @@ export default function SupportDeveloperScreen() {
         <View style={styles.supportCard}>
           <Feather name="heart" size={20} color={c.teal} />
           <Text style={styles.supportText}>
-            Ads help keep MediTrack free for everyone. Thank you for your support!
+            Ads help keep DoseMate free for everyone. Thank you for your support!
           </Text>
         </View>
 

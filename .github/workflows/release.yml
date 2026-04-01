@@ -104,8 +104,8 @@ jobs:
         run: |
           VERSION="${{ steps.version.outputs.tag }}"
           APK_PATH=$(find android/app/build/outputs/apk/release -name "*.apk" | head -1)
-          cp "$APK_PATH" "MediTrack-${VERSION}.apk"
-          echo "apk_path=MediTrack-${VERSION}.apk" >> "$GITHUB_OUTPUT"
+          cp "$APK_PATH" "DoseMate-${VERSION}.apk"
+          echo "apk_path=DoseMate-${VERSION}.apk" >> "$GITHUB_OUTPUT"
         id: rename
 
       - name: Create tag (manual dispatch only)
@@ -123,10 +123,10 @@ jobs:
           tag_name: ${{ steps.version.outputs.tag }}
           name: ${{ steps.version.outputs.tag }}
           body: |
-            ## 💊 MediTrack ${{ steps.version.outputs.tag }}
+            ## 💊 DoseMate ${{ steps.version.outputs.tag }}
 
             ### Installation
-            1. Download `MediTrack-${{ steps.version.outputs.tag }}.apk` below
+            1. Download `DoseMate-${{ steps.version.outputs.tag }}.apk` below
             2. Transfer to your Android device
             3. Open the APK to install (enable "Install from unknown sources" if prompted)
           files: ${{ steps.rename.outputs.apk_path }}

@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 /**
  * This screen exists only to catch the deep-link redirect from Supabase OAuth
- * (medication-tracker://google-callback). The actual token exchange is handled
+ * (dosemate://google-callback). The actual token exchange is handled
  * by `openAuthSessionAsync` in privacy-security.tsx before this screen mounts.
  * If the user somehow lands here (e.g. error redirect), we just send them back.
  */

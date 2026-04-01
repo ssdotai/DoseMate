@@ -258,7 +258,7 @@ export default function NotificationSettingsScreen() {
                 {
                   icon: 'moon' as const,
                   title: 'Do Not Disturb',
-                  desc: "Reminders won't ring during DND unless you add an exception for MediTrack.",
+                  desc: "Reminders won't ring during DND unless you add an exception for DoseMate.",
                 },
                 {
                   icon: 'wifi-off' as const,

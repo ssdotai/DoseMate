@@ -93,7 +93,7 @@ export default function AdPreferencesScreen() {
           <View style={{ width: 40 }} />
         </View>
         <Text style={styles.headerSubtitle}>
-          Choose where you see ads. Keeping ads enabled helps support free access to MediTrack.
+          Choose where you see ads. Keeping ads enabled helps support free access to DoseMate.
         </Text>
       </LinearGradient>
 
@@ -174,7 +174,7 @@ export default function AdPreferencesScreen() {
             <Feather name="heart" size={20} color="#FFFFFF" />
             <View style={styles.supportButtonText}>
               <Text style={styles.supportButtonTitle}>Support the Developer</Text>
-              <Text style={styles.supportButtonDesc}>View ads to help keep MediTrack free</Text>
+              <Text style={styles.supportButtonDesc}>View ads to help keep DoseMate free</Text>
             </View>
             <Feather name="chevron-right" size={20} color="rgba(255,255,255,0.7)" />
           </LinearGradient>

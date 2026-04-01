@@ -1,4 +1,4 @@
-# MediTrack — Engineering Improvement Plan
+# DoseMate — Engineering Improvement Plan
 
 Prioritized action items for production readiness. Updated to reflect current project state.
 

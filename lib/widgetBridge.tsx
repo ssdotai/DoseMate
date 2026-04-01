@@ -5,7 +5,7 @@ import { toISO } from '../utils/date';
 import { buildTodayDoses } from '../utils/dose';
 import { supabase } from './supabase';
 
-const WIDGET_DATA_KEY = 'meditrack_widget_data';
+const WIDGET_DATA_KEY = 'DoseMate_widget_data';
 
 export type WidgetData = {
   nextDose: {

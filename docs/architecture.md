@@ -1,4 +1,4 @@
-# MediTrack — Architecture Documentation
+# DoseMate — Architecture Documentation
 
 > A comprehensive medication tracking app built with Expo, React Native, and Supabase.
 
@@ -6,7 +6,7 @@
 
 ## 1. High-Level Architecture Overview
 
-MediTrack follows a **client-heavy** architecture: a React Native mobile app handles all UI, local state, and business logic, communicating with a Supabase backend for authentication, persistent storage, and row-level security.
+DoseMate follows a **client-heavy** architecture: a React Native mobile app handles all UI, local state, and business logic, communicating with a Supabase backend for authentication, persistent storage, and row-level security.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -157,7 +157,7 @@ utils/                        # Pure utility functions (barrel-exported)
 
 ## 4. State Management Architecture
 
-MediTrack uses a **three-tier** state model. Each tier has a clear boundary.
+DoseMate uses a **three-tier** state model. Each tier has a clear boundary.
 
 ```mermaid
 graph LR
@@ -459,7 +459,7 @@ No extra state is needed — `todayDoses` recomputes whenever any dependency cha
 
 ## 8. Theming System
 
-MediTrack supports **light**, **dark**, and **system** themes.
+DoseMate supports **light**, **dark**, and **system** themes.
 
 ### Color Tokens
 

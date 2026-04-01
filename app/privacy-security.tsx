@@ -103,7 +103,7 @@ export default function PrivacySecurityScreen() {
 
       await Share.share({
         message: json,
-        title: 'MediTrack Data Export',
+        title: 'DoseMate Data Export',
       });
 
       Toast.show({ type: 'success', text1: 'Data exported' });
@@ -173,7 +173,7 @@ export default function PrivacySecurityScreen() {
   const handleConnectGoogle = useCallback(async () => {
     setGoogleLoading(true);
     try {
-      const redirectTo = 'medication-tracker://google-callback';
+      const redirectTo = 'dosemate://google-callback';
       const { data, error } = await supabase.auth.linkIdentity({
         provider: 'google',
         options: { redirectTo },

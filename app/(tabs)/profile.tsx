@@ -247,7 +247,7 @@ export default function ProfileScreen() {
             <Text style={styles.logoutText}>Log Out</Text>
           </TouchableOpacity>
 
-          <Text style={styles.version}>MediTrack v1.3.0</Text>
+          <Text style={styles.version}>DoseMate v1.3.0</Text>
 
           <View style={{ height: 80 }} />
         </View>

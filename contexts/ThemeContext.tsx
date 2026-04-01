@@ -4,7 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { useColorScheme } from 'react-native';
 import { type ColorScheme, colors, darkColors } from '../components/ui/theme';
 
-const THEME_KEY = '@meditrack_theme';
+const THEME_KEY = '@DoseMate_theme';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 

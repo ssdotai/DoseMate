@@ -12,7 +12,7 @@ export function NextDoseWidget({ data }: NextDoseWidgetProps) {
     return (
       <FlexWidget
         clickAction="OPEN_APP"
-        accessibilityLabel="MediTrack — No upcoming doses. Tap to open app."
+        accessibilityLabel="DoseMate — No upcoming doses. Tap to open app."
         style={{
           height: 'match_parent',
           width: 'match_parent',
@@ -41,7 +41,7 @@ export function NextDoseWidget({ data }: NextDoseWidgetProps) {
           }}
         />
         <TextWidget
-          text="MediTrack"
+          text="DoseMate"
           style={{
             fontSize: 11,
             color: '#9CA3AF',
@@ -55,7 +55,7 @@ export function NextDoseWidget({ data }: NextDoseWidgetProps) {
   return (
     <FlexWidget
       clickAction="OPEN_APP"
-      accessibilityLabel={`MediTrack — Next dose: ${nextDose.name} ${nextDose.dosage} at ${nextDose.time}. Tap to open app.`}
+      accessibilityLabel={`DoseMate — Next dose: ${nextDose.name} ${nextDose.dosage} at ${nextDose.time}. Tap to open app.`}
       style={{
         height: 'match_parent',
         width: 'match_parent',

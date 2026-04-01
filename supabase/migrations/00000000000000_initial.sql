@@ -1,5 +1,5 @@
 -- ============================================================================
--- MediTrack — Initial Migration: Full Database Schema
+-- DoseMate — Initial Migration: Full Database Schema
 -- ============================================================================
 -- This migration represents the complete current state of the database.
 -- All tables, indexes, constraints, and RLS policies are defined here.

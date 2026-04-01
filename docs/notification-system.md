@@ -1,4 +1,4 @@
-# MediTrack Notification System — Architecture
+# DoseMate Notification System — Architecture
 
 ## Overview
 

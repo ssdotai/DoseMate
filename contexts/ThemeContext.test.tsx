@@ -27,6 +27,10 @@ beforeEach(() => {
   setColorScheme('light');
 });
 
+afterEach(() => {
+  jest.restoreAllMocks();
+});
+
 describe('ThemeContext', () => {
   it('defaults to system preference when AsyncStorage is empty', async () => {
     const { result } = renderHook(() => useThemePreference(), { wrapper });
@@ -70,7 +74,7 @@ describe('ThemeContext', () => {
     });
 
     expect(result.current.preference).toBe('dark');
-    expect(mockSetItem).toHaveBeenCalledWith('@meditrack_theme', 'dark');
+    expect(mockSetItem).toHaveBeenCalledWith('@DoseMate_theme', 'dark');
   });
 
   it('resolves system preference to dark when useColorScheme returns dark', async () => {
@@ -130,7 +134,7 @@ describe('ThemeContext', () => {
   it('reads from AsyncStorage with the correct key on mount', async () => {
     renderHook(() => useThemePreference(), { wrapper });
     await waitFor(() => {
-      expect(mockGetItem).toHaveBeenCalledWith('@meditrack_theme');
+      expect(mockGetItem).toHaveBeenCalledWith('@DoseMate_theme');
     });
   });
 });

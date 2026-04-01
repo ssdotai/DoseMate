@@ -1,10 +1,10 @@
-# Privacy Policy for MediTrack
+# Privacy Policy for DoseMate
 
 **Last updated:** March 6, 2026
 
 ## Introduction
 
-MediTrack ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the MediTrack mobile application.
+DoseMate ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the DoseMate mobile application.
 
 ## Information We Collect
 
@@ -66,7 +66,7 @@ You can request deletion of your account and all associated data by contacting u
 
 ## Children's Privacy
 
-MediTrack is not intended for use by children under 13. We do not knowingly collect personal information from children under 13.
+DoseMate is not intended for use by children under 13. We do not knowingly collect personal information from children under 13.
 
 ## Changes to This Policy
 

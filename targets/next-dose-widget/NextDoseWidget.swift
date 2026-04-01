@@ -11,8 +11,8 @@ struct NextDoseEntry: TimelineEntry {
 }
 
 struct NextDoseProvider: TimelineProvider {
-    private let appGroupID = "group.com.anonymous.medicationtracker"
-    private let dataKey = "meditrack_widget_data"
+    private let appGroupID = "group.com.anonymous.dosemake"
+    private let dataKey = "DoseMate_widget_data"
 
     func placeholder(in context: Context) -> NextDoseEntry {
         NextDoseEntry(
@@ -89,7 +89,7 @@ struct NextDoseWidgetView: View {
             Text("All done for today!")
                 .font(.system(size: 14, weight: .semibold))
                 .foregroundColor(.primary)
-            Text("MediTrack")
+            Text("DoseMate")
                 .font(.system(size: 11))
                 .foregroundColor(.secondary)
         }

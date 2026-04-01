@@ -1,4 +1,4 @@
-# MediTrack — AI Coding Guidelines
+# DoseMate — AI Coding Guidelines
 
 ## Architecture
 

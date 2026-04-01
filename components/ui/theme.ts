@@ -1,6 +1,6 @@
 /**
- * MediTrack Design System - Color Tokens & Typography
- * Based on the Figma MediTrack Mobile UI Design
+ * DoseMate Design System - Color Tokens & Typography
+ * Based on the Figma DoseMate Mobile UI Design
  */
 
 export const colors = {

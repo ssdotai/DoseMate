@@ -1,4 +1,4 @@
-# MediTrack — Feature Roadmap
+# DoseMate — Feature Roadmap
 
 Track planned, in-progress, and completed features. Grouped by priority tier.
 
@@ -125,7 +125,7 @@ Track planned, in-progress, and completed features. Grouped by priority tier.
 
 Features benchmarked against: Medisafe, MyTherapy, EveryDose, Dosecast, CareClinic, Pill Reminder All-in-One.
 
-| Feature | Medisafe | MyTherapy | EveryDose | CareClinic | MediTrack |
+| Feature | Medisafe | MyTherapy | EveryDose | CareClinic | DoseMate |
 |---------|----------|-----------|-----------|------------|-----------|
 | PRN Medications | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Drug Interactions | ✅ | ✅ | ✅ | ✅ | ✅ |

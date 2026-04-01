@@ -48,10 +48,10 @@ function buildSummaryText(
   const takenCount = logs.filter((l) => l.status === 'taken').length;
   const skippedCount = logs.filter((l) => l.status === 'skipped').length;
 
-  const name = profileName || 'A MediTrack user';
+  const name = profileName || 'A DoseMate user';
   const lines: string[] = [];
 
-  lines.push('📋 MediTrack — Caregiver Summary');
+  lines.push('📋 DoseMate — Caregiver Summary');
   lines.push(`Shared by: ${name}`);
   lines.push(
     `Period: Last ${periodDays} days (${formatSimpleDate(startISO)} – ${formatSimpleDate(endISO)})`,
@@ -110,7 +110,7 @@ function buildSummaryText(
   }
 
   lines.push('');
-  lines.push('— Sent from MediTrack');
+  lines.push('— Sent from DoseMate');
 
   return lines.join('\n');
 }
@@ -174,7 +174,7 @@ export default function CaregiverSharingScreen() {
 
       await Share.share({
         message: text,
-        title: 'MediTrack — Caregiver Summary',
+        title: 'DoseMate — Caregiver Summary',
       });
 
       Toast.show({ type: 'success', text1: 'Summary shared' });
