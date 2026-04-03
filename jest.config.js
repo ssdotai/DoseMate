@@ -3,6 +3,7 @@ const {
   projects: rawProjects,
   ...rootPreset
 } = require('jest-expo/universal/jest-preset');
+
 const projects = rawProjects
   .filter((p) => ['Node', 'Web'].includes(p.displayName?.name))
   .map(({ watchPlugins: __, ...proj }) => ({
